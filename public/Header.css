@@ -1,0 +1,36 @@
+/* src/components/Header.css */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navList li {
+    margin: 0 15px;
+  }
+  
+  .navButton {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navButton:hover {
+    background-color: #575757;
+  }
+  
